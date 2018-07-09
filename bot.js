@@ -64,7 +64,7 @@ client.on('message', async msg => { // eslint-disable-line
 
 	command = command.slice(PREFIX.length)
 
-	if (command === `p`) {
+	if (command === `play`) {
     
 		const voiceChannel = msg.member.voiceChannel;
         
@@ -431,7 +431,7 @@ client.on('message', message => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Hp`,"http://twitch.tv/S-F")
+client.user.setGame(`!`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 
